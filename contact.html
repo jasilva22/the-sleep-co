@@ -29,7 +29,7 @@
 <body>
    
     <!----------------- Header Nav ------------------->
-
+<!-- 
     <header class="grid-middle text-center">
         <nav class="col-4 text-right"> 
           <a href="/index.html">Home</a>
@@ -41,32 +41,96 @@
           </a> 
         </div>
         <nav class="col-4 center text-left">
-          <a href="/services.html">Services</a>
+          <a href="/products.html">Products</a>
           <a href="/contact.html">Contact</a>
         </nav>
-    </header>
+    </header> -->
 
-    <!--------------------- Header Banner ----------------------->
-    <section class="padded grid text-center tall-100 header-banner">
+    <!--------------------- Her Header Nav/Banner ----------------------->
+    <header class="padded grid text-center tall-100 header-banner">
+        <div class="header-nav col-12 grid">
+            <div class="col-4">
+                <a href="/index.html" class="logo">
+                  <h2>The Sleep Co</h2>
+                </a>
+            </div>
+            <nav class="col-8 text-right">
+                <a href="/index.html">Home</a>
+                <a href="/about.html">About</a>
+                <a href="/products.html">Products</a>
+                <a href="/contact.html">Contact</a>
+            </nav>
+        </div>
         <div class="col-12-middle">
             <h3 class="font-weight-extra-bold editable">
-                <span class="featured-text">call me</span> maybe
+                why <span class="featured-text">wait</span>
             </h3>
-            <h1 class="font-weight-light editable">let's get weird</h1>
+            <h1 class="font-weight-light editable">one call away from the perfect night sleep.</h1>
+        </div>
+    </header>
+
+    <!------------------- Contact Form Section ------------------>
+
+    <section class="grid bg-dark light-text padded">
+        <div class="col-6 padded">
+            <h2>let's <span class="featured-text">connect</span></h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa recusandae architecto amet dicta dignissimos itaque aperiam voluptates deserunt sed maxime.</p>
+        </div>
+        <div class="col-6 padded">
+            <form> <!--need to add a form action if going live-->
+                <input type="text" name="name" placeholder="Your Name">
+                <input type="email" name="_replyto" placeholder="Your Email"> <!--using replyto b/c we want cloudcannon or formspree to recognize that this is the users email, so when we hit respond to their email it automatically goes back to the right person-->
+                <textarea name="message" placeholder="Tell us what you want..." rows="6"></textarea>
+                <button class="button uppercase" type="submit">submit</button>
+            </form>
         </div>
     </section>
 
 
+    <!------------------------- Gallery Section ---------------------->
+    <section class="grid padded">
+        <div class="bg-img bg-pug col-6 tall-70"></div>
+                <!-- background image pug sleeping -->
+        <div class="padded col-6-middle">
+            <h2 class="editable">so <span class="featured-text">soft</span> you'll melt</h2>
+            <p class="editable">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore iure distinctio hic asperiores, quis ullam, eligendi esse officiis maiores qui nemo repudiandae libero amet? Perspiciatis accusamus magnam dignissimos adipisci aperiam.</p>
+        </div>
+    </section>
 
+    <!------------------- Icon Grid Section --------------->
+    <section class="padded grid-center bg-light">
+        <div class="padded-1 col-12 text-center">
+            <h2>need help deciding?</h2>
+        </div>
+        <div class="padded-1 col-3">
+            <i class="fa-solid fa-cloud"></i> 
+            <!-- fontawesome icons are INLINE elements by default, so unless you set it to block, it won't accept the text-alignment property -->
+            <p class="editable">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, a perferendis dolorem velit deleniti aspernatur possimus.</p>
+        </div>
+        <div class="padded-1 col-3">
+            <i class="fa-solid fa-cloud"></i>
+            <p class="editable">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, a perferendis dolorem velit deleniti aspernatur possimus. </p>
+        </div>
+        <div class="padded-1 col-3">
+            <i class="fa-solid fa-cloud"></i>
+            <p class="editable">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, a perferendis dolorem velit deleniti aspernatur possimus. </p>
+        </div>
+    </section>
 
-
-
-
-
-
-
-
-
+    <!------------------- Testimonial Section --------------->
+    
+    <section class="padded grid padded-lg">
+        <div class="col-1 text-right">
+            <span class="quote-icon">&ldquo;</span>
+        </div>
+        <div class="col-10 text-center">
+            <p class="medium-text font-weight-light editable">I've never experienced sleep like this. Omg I really love this mattress I want to buy one for every member of my family</p>
+            <p class="subtitle editable">- A very happy customer</p>
+        </div>
+        <div class="col-1">
+            <span class="quote-icon">&rdquo;</span>
+        </div>
+    </section>
     
     <!------------------- Footer Section --------------->
 

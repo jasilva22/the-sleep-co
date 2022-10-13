@@ -24,6 +24,10 @@
     min-height: 10rem;
 }
 
+.landscape  {padding-bottom: 65%;}
+.portrait   {padding-bottom: 125%;}
+.square     {padding-bottom: 100%;}
+
 /* Universal styles and utility classes */
 
 body {
@@ -31,14 +35,80 @@ body {
     color: #192B37;
 }
 
+/* Padding Utility Classes */
+
+.padded-sm  {padding: 2.5%;}
 .padded     {padding: 5%;}
-.padded-sm  {padding: 1rem;}
 .padded-lg  {padding: 10%;}
+
+.padded-05  {padding: .5rem;}
+.padded-1   {padding: 1rem;}
+.padded-2   {padding: 2rem;}
+
+.padded-t   {padding-top: 5%;}
+.padded-b   {padding-bottom: 5%;}
+.padded-l   {padding-left: 5%;}
+.padded-r   {padding-right: 5%;}
+
+.padded-tb   {padding-top: 5%; padding-bottom: 5%;}
+.padded-lr  {padding-left: 5%; padding-right: 5%;}
+
+.padded-t-1  {padding-top: 1rem;}
+.padded-b-1  {padding-bottom: 1rem;}
+.padded-l-1  {padding-left: 1rem;}
+.padded-r-1  {padding-right: 1rem;}
+
+.padded-t-2  {padding-top: 2rem;}
+.padded-b-2  {padding-bottom: 2rem;}
+.padded-l-2  {padding-left: 2rem;}
+.padded-r-2  {padding-right: 2rem;}
+
+.padded-t-0  {padding-top: 0;}
+.padded-b-0  {padding-bottom: 0;}
+.padded-l-0  {padding-left: 0;}
+.padded-r-0  {padding-right: 0;}
+
+/* Margin Utility Classes */
+
+.margin-t   {margin-top: 5%;}
+.margin-b   {margin-bottom: 5%;}
+.margin-l   {margin-left: 5%;}
+.margin-r   {margin-right: 5%;}
+
+.margin-t-1   {margin-top: 1rem;}
+.margin-b-1   {margin-bottom: 1rem;}
+.margin-l-1   {margin-left: 1rem;}
+.margin-r-1   {margin-right: 1rem;}
+
+.margin-t-2   {margin-top: 2rem;}
+.margin-b-2   {margin-bottom: 2rem;}
+.margin-l-2   {margin-left: 2rem;}
+.margin-r-2   {margin-right: 2rem;}
+
+.margin-t-0   {margin-top: 0;}
+.margin-b-0   {margin-bottom: 0;}
+.margin-l-0   {margin-left: 0;}
+.margin-r-0   {margin-right: 0;}
+
+.margin-tb    {margin-top: 5%; margin-bottom: 5%;}
+.margin-lr    {margin-left: 5%; margin-right: 5%;}
+
+.text-left      { text-align: left;}
+.text-center    { text-align: center;}
+.text-right     { text-align: right;}
+
+.uppercase  {text-transform: uppercase;}
 
 .bg-dark {
     background-color: #192B37;
     color: #fff;
 }
+
+.bg-featured {
+    background-color: #FFBE00;
+}
+
+.bg-light {background-color: #e3ecf2}
 
 .tall-50    {min-height: 50vh;}
 .tall-60    {min-height: 60vh;}
@@ -46,8 +116,6 @@ body {
 .tall-80    {min-height: 80vh;}
 .tall-90    {min-height: 90vh;}
 .tall-100   {min-height: 100vh;}
-
-
 
 /* --------- Typography Styles --------- */
 
@@ -73,14 +141,14 @@ body {
     line-height: 1;
 }
 
-.text-left      { text-align: left;}
-.text-center    { text-align: center;}
-.text-right     { text-align: right;}
-
 .font-weight-light          {font-weight: 200;}
 .font-weight-normal         {font-weight: normal;}
 .font-weight-extra-bold     {font-weight: 800;}
 
+h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 1rem;
+    line-height: 1.1;
+}
 
 h2 {
     font-size: 2.5rem;      
@@ -171,7 +239,22 @@ a:hover {
 footer a {
     border: none;
 }
-/* -------- Background Images ----------- */
+
+
+/* alternate footer styles */
+
+/* footer a {
+    display: inline-block;
+    color: #fff;
+    border: 2px solid #fff;
+    padding-left: .8rem;
+    padding-right: .8rem;
+    padding-top: .5rem;
+    margin: .5rem;
+    font-size: 2rem;    
+} */
+
+/* ---------------- Background Images ----------- */
 
 .bg-bed {background-image: url('/images/sleep-co-3.jpg');}
 
@@ -184,7 +267,7 @@ footer a {
     background-image: url('/images/sleep-co-2.jpg');
     background-position: 50% 57%;}
 
-/* ---------- Icon Grid ----------- */
+/* ------------------------ Icon Grid ----------- */
 
 .fa-solid {
     display: block;
@@ -193,3 +276,10 @@ footer a {
     font-size: 3rem;
 }
 
+/* -------------------- Buttons & Forms ------------------ */
+
+input,
+textarea {
+    width: 100%;
+    display: block;
+}

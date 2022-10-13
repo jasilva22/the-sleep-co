@@ -3,7 +3,7 @@
 <!-- this is the head of our html where we add external resources and metadata -->
 <head>
 
-    <title>The Sleep Co</title>
+    <title>Products - The Sleep Co</title>
 
     <!-------------------- this is our grid stylesheet ----------->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/gridlex/2.7.1/gridlex.min.css" />
@@ -28,10 +28,10 @@
     
 <!-- this is the body of our html, this is where all of your page content goes -->    
 <body>
-
+    
     <!----------------- My Header Nav ------------------->
-
-    <!-- <header class="grid-middle text-center">
+<!-- 
+    <header class="grid-middle text-center">
         <nav class="col-4 text-right"> 
           <a href="/index.html">Home</a>
           <a href="/about.html">About</a>
@@ -64,13 +64,81 @@
         </div>
         <div class="col-12-middle">
             <h3 class="font-weight-extra-bold editable">
-                <span class="featured-text">sleep</span> like a baby
+                <span class="featured-text">addictively</span> soft
             </h3>
-            <h1 class="font-weight-light editable">the ultimate mattress solution</h1>
+            <h1 class="font-weight-light editable">you won't want to get out of bed</h1>
         </div>
     </header>
 
-    <!------------------------- Gallery/About Section ---------------------->
+<!------------------- Text Grid Section --------------->
+<section class="padded grid bg-featured">
+    <div class="padded-1 col-12 text-center">
+        <h2 class="editable"><span class="white-text">features</span> you will love</h2>
+    </div>
+    <div class="padded-1 col-3">
+        <h3>little heading</h3>
+        <p class="editable">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, a perferendis dolorem velit deleniti aspernatur possimus. Officiis, ex aliquid sunt ab porro molestias sequi neque laborum harum consequuntur, assumenda impedit.</p>
+    </div>
+    <div class="padded-1 col-3">
+        <h3>little heading</h3>
+        <p class="editable">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, a perferendis dolorem velit deleniti aspernatur possimus. Officiis, ex aliquid sunt ab porro molestias sequi neque laborum harum consequuntur, assumenda impedit.</p>
+    </div>
+    <div class="padded-1 col-3">
+        <h3>little heading</h3>
+        <p class="editable">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, a perferendis dolorem velit deleniti aspernatur possimus. Officiis, ex aliquid sunt ab porro molestias sequi neque laborum harum consequuntur, assumenda impedit.</p>
+    </div>
+    <div class="padded-1 col-3">
+        <h3>little heading</h3>
+        <p class="editable">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, a perferendis dolorem velit deleniti aspernatur possimus. Officiis, ex aliquid sunt ab porro molestias sequi neque laborum harum consequuntur, assumenda impedit.</p>
+    </div>
+</section>
+
+    <!-- Cards Section -->
+
+    <section class="grid padded">
+        <div class="col-4 padded-sm">
+            <div class="card">
+                <div class="bg-img portrait"></div>
+                <div class="padded-1">
+                    <h3>little heading</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint quaerat molestias repellendus ullam fuga perferendis illo, culpa voluptates eaque, tempore molestiae! Reiciendis laborum hic distinctio nesciunt nulla autem tempora illum!</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-4 padded-sm">
+            <div class="card">
+                <div class="bg-img portrait"></div>
+                <div class="padded-1">
+                    <h3>little heading</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint quaerat molestias repellendus ullam fuga perferendis illo, culpa voluptates eaque, tempore molestiae! Reiciendis laborum hic distinctio nesciunt nulla autem tempora illum!</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-4 padded-sm">
+            <div class="card">
+                <div class="bg-img portrait"></div>
+                <div class="padded-1">
+                    <h3>little heading</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint quaerat molestias repellendus ullam fuga perferendis illo, culpa voluptates eaque, tempore molestiae! Reiciendis laborum hic distinctio nesciunt nulla autem tempora illum!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!------------------- Image Banner Section --------------->
+
+    <section class="padded text-center tall-70 grid bg-dark">
+        <div class="col-12-middle editable">
+            <h3 class="big-text">
+                <span class="small-text font-weight-normal">spend over $150 and activate</span>
+                <br><span class="featured-text">free </span>express shipping
+            </h3>
+        </div>
+    </section>
+
+
+    <!------------------------- Gallery Section ---------------------->
     <section class="grid">
         <div class="padded col-6-middle">
             <h2 class="editable">
@@ -86,57 +154,19 @@
             <h2 class="editable">so <span class="featured-text">soft</span> you'll melt</h2>
             <p class="editable">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore iure distinctio hic asperiores, quis ullam, eligendi esse officiis maiores qui nemo repudiandae libero amet? Perspiciatis accusamus magnam dignissimos adipisci aperiam.</p>
         </div>
+        <div class="padded col-6-middle">
+            <h2 class="editable">
+                built to last a <span class="featured-text">lifetime</span>
+            </h2>
+            <p class="editable">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe vero doloribus voluptatum esse laborum veniam unde, sed nemo modi alias tenetur mollitia quam! Molestias explicabo voluptates ut eligendi mollitia vero.</p>
+        </div>
+        <div class="bg-img bg-bed col-6 tall-70"></div>
+                <!-- background image bed -->
     </section>
 
-    <!------------------- Feature Icon Grid Section --------------->
-    <section class="padded grid bg-dark">
-        <div class="padded-1 col-12 text-center">
-            <h2 class="editable"><span class="featured-text">features</span> you will love</h2>
-        </div>
-        <div class="padded-1 col-3">
-            <i class="fa-solid fa-cloud"></i> 
-            <!-- fontawesome icons are INLINE elements by default, so unless you set it to block, it won't accept the text-alignment property -->
-            <p class="editable">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, a perferendis dolorem velit deleniti aspernatur possimus. Officiis, ex aliquid sunt ab porro molestias sequi neque laborum harum consequuntur, assumenda impedit.</p>
-        </div>
-        <div class="padded-1 col-3">
-            <i class="fa-solid fa-cloud"></i>
-            <p class="editable">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, a perferendis dolorem velit deleniti aspernatur possimus. Officiis, ex aliquid sunt ab porro molestias sequi neque laborum harum consequuntur, assumenda impedit.</p>
-        </div>
-        <div class="padded-1 col-3">
-            <i class="fa-solid fa-cloud"></i>
-            <p class="editable">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, a perferendis dolorem velit deleniti aspernatur possimus. Officiis, ex aliquid sunt ab porro molestias sequi neque laborum harum consequuntur, assumenda impedit.</p>
-        </div>
-        <div class="padded-1 col-3">
-            <i class="fa-solid fa-cloud"></i>
-            <p class="editable">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, a perferendis dolorem velit deleniti aspernatur possimus. Officiis, ex aliquid sunt ab porro molestias sequi neque laborum harum consequuntur, assumenda impedit.</p>
-        </div>
-    </section>
 
-    <!------------------- Image Banner Section --------------->
 
-    <section class="padded text-center bg-pillow bg-img tall-70 grid">
-          <div class="col-12-middle editable">
-            <h3 class="big-text">
-                <span class="small-text font-weight-normal">never underestimate the power of</span>
-                <br>a good night <span class="white-text">sleep</span></h3>
-          </div>
-    </section>
-
-    <!------------------- Testimonial Section --------------->
     
-    <section class="padded grid padded-lg">
-        <div class="col-1 text-right">
-            <span class="quote-icon">&ldquo;</span>
-        </div>
-        <div class="col-10 text-center">
-            <p class="medium-text font-weight-light editable">I've never experienced sleep like this. Omg I really love this mattress I want to buy one for every member of my family</p>
-            <p class="subtitle editable">- A very happy customer</p>
-        </div>
-        <div class="col-1">
-            <span class="quote-icon">&rdquo;</span>
-        </div>
-    </section>
-
     <!------------------- Footer Section --------------->
 
     <footer class="padded grid-spaceBetween bg-dark">
@@ -151,20 +181,6 @@
             <p class="editable"><strong>Instagram:</strong><a href="https://www.instagram.com/thesleepco"> @thesleepco</a></p>
         </div>
     </footer>
-
-    <!--------------- Other Version of Footer ------------->
-
-    <!-- <footer class="grid-center padded-lg bg-dark">
-        <div class="col-6 text-center">
-            <h2 class="uppercase">The Sleep Co</h2>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae ullam explicabo sapiente ducimus, cupiditate omnis! Quisquam culpa hic quasi vitae.</p>
-            <nav class="footer-nav">
-                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-                <a href="#"><i class="fa-brands fa-pinterest-p"></i></a>
-                <a href="#"><i class="fa-brands fa-instagram"></i></a>
-            </nav>
-        </div>
-    </footer> -->
 
 </body>
 </html>
