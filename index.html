@@ -2,7 +2,10 @@
 <html lang="en">
 <!-- this is the head of our html where we add external resources and metadata -->
 <head>
-
+    <!-- Viewport meta for responsive -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    
+    <!-- Title of Page -->
     <title>The Sleep Co</title>
 
     <!-------------------- this is our grid stylesheet ----------->
@@ -31,38 +34,38 @@
 
     <!----------------- My Header Nav ------------------->
 
-    <!-- <header class="grid-middle text-center">
-        <nav class="col-4 text-right"> 
+    <!-- <header class="grid-middle center">
+        <nav class="col-4 right"> 
           <a href="/index.html">Home</a>
           <a href="/about.html">About</a>
         </nav>
-        <div class="col-4 text-center">
+        <div class="col-4 center">
           <a href="/index.html" class="logo">
             <h2>LOGO</h2>
           </a> 
         </div>
-        <nav class="col-4 center text-left">
+        <nav class="col-4 center left">
           <a href="/products.html">Products</a>
           <a href="/contact.html">Contact</a>
         </nav>
     </header> -->
 
     <!--------------------- Her Header Nav/Banner ----------------------->
-    <header class="padded grid text-center tall-100 header-banner">
-        <div class="header-nav col-12 grid">
-            <div class="col-4">
+    <header class="grid center tall-100 md-tall-80">
+        <div class="header-nav col-12-top grid">
+            <div class="col-5_sm-12-middle sm-padded-b-0">
                 <a href="/index.html" class="logo">
                   <h2>The Sleep Co</h2>
                 </a>
             </div>
-            <nav class="col-8 text-right">
+            <nav class="col-7_sm-12-middle right sm-text-center">
                 <a href="/index.html">Home</a>
                 <a href="/about.html">About</a>
                 <a href="/products.html">Products</a>
                 <a href="/contact.html">Contact</a>
             </nav>
         </div>
-        <div class="col-12-middle">
+        <div class="col-12">
             <h3 class="font-weight-extra-bold editable">
                 <span class="featured-text">sleep</span> like a baby
             </h3>
@@ -72,17 +75,17 @@
 
     <!------------------------- Gallery/About Section ---------------------->
     <section class="grid">
-        <div class="padded col-6-middle">
+        <div class="padded col-6_xs-12-middle">
             <h2 class="editable">
                 built to last a <span class="featured-text">lifetime</span>
             </h2>
             <p class="editable">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe vero doloribus voluptatum esse laborum veniam unde, sed nemo modi alias tenetur mollitia quam! Molestias explicabo voluptates ut eligendi mollitia vero.</p>
         </div>
-        <div class="bg-img bg-bed col-6 tall-70"></div>
+        <div class="bg-img bg-bed col-6_xs-12 tall-70 hide-xs"></div>
                 <!-- background image bed -->
-        <div class="bg-img bg-pug col-6 tall-70"></div>
+        <div class="bg-img bg-pug col-6_xs-12 tall-70"></div>
                 <!-- background image pug sleeping -->
-        <div class="padded col-6-middle">
+        <div class="padded col-6_xs-12-middle">
             <h2 class="editable">so <span class="featured-text">soft</span> you'll melt</h2>
             <p class="editable">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore iure distinctio hic asperiores, quis ullam, eligendi esse officiis maiores qui nemo repudiandae libero amet? Perspiciatis accusamus magnam dignissimos adipisci aperiam.</p>
         </div>
@@ -90,23 +93,23 @@
 
     <!------------------- Feature Icon Grid Section --------------->
     <section class="padded grid bg-dark">
-        <div class="padded-1 col-12 text-center">
+        <div class="padded-1 col-12 center">
             <h2 class="editable"><span class="featured-text">features</span> you will love</h2>
         </div>
-        <div class="padded-1 col-3">
+        <div class="padded-1 col-3_sm-6 xxs-stack">
             <i class="fa-solid fa-cloud"></i> 
             <!-- fontawesome icons are INLINE elements by default, so unless you set it to block, it won't accept the text-alignment property -->
             <p class="editable">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, a perferendis dolorem velit deleniti aspernatur possimus. Officiis, ex aliquid sunt ab porro molestias sequi neque laborum harum consequuntur, assumenda impedit.</p>
         </div>
-        <div class="padded-1 col-3">
+        <div class="padded-1 col-3_sm-6 xxs-stack">
             <i class="fa-solid fa-cloud"></i>
             <p class="editable">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, a perferendis dolorem velit deleniti aspernatur possimus. Officiis, ex aliquid sunt ab porro molestias sequi neque laborum harum consequuntur, assumenda impedit.</p>
         </div>
-        <div class="padded-1 col-3">
+        <div class="padded-1 col-3_sm-6 xxs-stack">
             <i class="fa-solid fa-cloud"></i>
             <p class="editable">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, a perferendis dolorem velit deleniti aspernatur possimus. Officiis, ex aliquid sunt ab porro molestias sequi neque laborum harum consequuntur, assumenda impedit.</p>
         </div>
-        <div class="padded-1 col-3">
+        <div class="padded-1 col-3_sm-6 xxs-stack">
             <i class="fa-solid fa-cloud"></i>
             <p class="editable">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, a perferendis dolorem velit deleniti aspernatur possimus. Officiis, ex aliquid sunt ab porro molestias sequi neque laborum harum consequuntur, assumenda impedit.</p>
         </div>
@@ -114,7 +117,7 @@
 
     <!------------------- Image Banner Section --------------->
 
-    <section class="padded text-center bg-pillow bg-img tall-70 grid">
+    <section class="padded center bg-pillow bg-img tall-70 grid">
           <div class="col-12-middle editable">
             <h3 class="big-text">
                 <span class="small-text font-weight-normal">never underestimate the power of</span>
@@ -125,10 +128,10 @@
     <!------------------- Testimonial Section --------------->
     
     <section class="padded grid padded-lg">
-        <div class="col-1 text-right">
+        <div class="col-1 right">
             <span class="quote-icon">&ldquo;</span>
         </div>
-        <div class="col-10 text-center">
+        <div class="col-10 center">
             <p class="medium-text font-weight-light editable">I've never experienced sleep like this. Omg I really love this mattress I want to buy one for every member of my family</p>
             <p class="subtitle editable">- A very happy customer</p>
         </div>
@@ -155,7 +158,7 @@
     <!--------------- Other Version of Footer ------------->
 
     <!-- <footer class="grid-center padded-lg bg-dark">
-        <div class="col-6 text-center">
+        <div class="col-6 center">
             <h2 class="uppercase">The Sleep Co</h2>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae ullam explicabo sapiente ducimus, cupiditate omnis! Quisquam culpa hic quasi vitae.</p>
             <nav class="footer-nav">

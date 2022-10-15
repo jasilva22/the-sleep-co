@@ -2,7 +2,10 @@
 <html lang="en">
 <!-- this is the head of our html where we add external resources and metadata -->
 <head>
-
+    <!-- Viewport meta for responsive -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    
+    <!-- Title of page -->
     <title>Contact The Sleep Co</title>
 
     <!-------------------- this is our grid stylesheet ----------->
@@ -30,42 +33,42 @@
    
     <!----------------- Header Nav ------------------->
 <!-- 
-    <header class="grid-middle text-center">
-        <nav class="col-4 text-right"> 
+    <header class="grid-middle center">
+        <nav class="col-4 right"> 
           <a href="/index.html">Home</a>
           <a href="/about.html">About</a>
         </nav>
-        <div class="col-4 text-center">
+        <div class="col-4 center">
           <a href="/index.html" class="logo">
             <h2>LOGO</h2>
           </a> 
         </div>
-        <nav class="col-4 center text-left">
+        <nav class="col-4 center left">
           <a href="/products.html">Products</a>
           <a href="/contact.html">Contact</a>
         </nav>
     </header> -->
 
     <!--------------------- Her Header Nav/Banner ----------------------->
-    <header class="padded grid text-center tall-100 header-banner">
-        <div class="header-nav col-12 grid">
-            <div class="col-4">
+    <header class="grid center tall-100 md-tall-80">
+        <div class="header-nav col-12-top grid">
+            <div class="col-5_sm-12-middle sm-padded-b-0">
                 <a href="/index.html" class="logo">
                   <h2>The Sleep Co</h2>
                 </a>
             </div>
-            <nav class="col-8 text-right">
+            <nav class="col-7_sm-12-middle right sm-text-center">
                 <a href="/index.html">Home</a>
                 <a href="/about.html">About</a>
                 <a href="/products.html">Products</a>
                 <a href="/contact.html">Contact</a>
             </nav>
         </div>
-        <div class="col-12-middle">
+        <div class="col-12">
             <h3 class="font-weight-extra-bold editable">
-                why <span class="featured-text">wait</span>
+                <span class="featured-text">sleep</span> like a baby
             </h3>
-            <h1 class="font-weight-light editable">one call away from the perfect night sleep.</h1>
+            <h1 class="font-weight-light editable">the ultimate mattress solution</h1>
         </div>
     </header>
 
@@ -80,7 +83,7 @@
             <form> <!--need to add a form action if going live-->
                 <input type="text" name="name" placeholder="Your Name">
                 <input type="email" name="_replyto" placeholder="Your Email"> <!--using replyto b/c we want cloudcannon or formspree to recognize that this is the users email, so when we hit respond to their email it automatically goes back to the right person-->
-                <textarea name="message" placeholder="Tell us what you want..." rows="6"></textarea>
+                <textarea name="message" placeholder="Tell us what you want..." rows="4"></textarea>
                 <button class="button uppercase" type="submit">submit</button>
             </form>
         </div>
@@ -99,7 +102,7 @@
 
     <!------------------- Icon Grid Section --------------->
     <section class="padded grid-center bg-light">
-        <div class="padded-1 col-12 text-center">
+        <div class="padded-1 col-12 center">
             <h2>need help deciding?</h2>
         </div>
         <div class="padded-1 col-3">
@@ -120,10 +123,10 @@
     <!------------------- Testimonial Section --------------->
     
     <section class="padded grid padded-lg">
-        <div class="col-1 text-right">
+        <div class="col-1 right">
             <span class="quote-icon">&ldquo;</span>
         </div>
-        <div class="col-10 text-center">
+        <div class="col-10 center">
             <p class="medium-text font-weight-light editable">I've never experienced sleep like this. Omg I really love this mattress I want to buy one for every member of my family</p>
             <p class="subtitle editable">- A very happy customer</p>
         </div>
