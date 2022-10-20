@@ -21,6 +21,29 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@200;400;500;800&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,800;0,900;1,100;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet" />
 
+    <!-- Flodesk Custom Form -->
+    <script>
+        (function(w, d, t, h, s, n) {
+          w.FlodeskObject = n;
+          var fn = function() {
+            (w[n].q = w[n].q || []).push(arguments);
+          };
+          w[n] = w[n] || fn;
+          var f = d.getElementsByTagName(t)[0];
+          var v = '?v=' + Math.floor(new Date().getTime() / (120 * 1000)) * 60;
+          var sm = d.createElement(t);
+          sm.async = true;
+          sm.type = 'module';
+          sm.src = h + s + '.mjs' + v;
+          f.parentNode.insertBefore(sm, f);
+          var sn = d.createElement(t);
+          sn.async = true;
+          sn.noModule = true;
+          sn.src = h + s + '.js' + v;
+          f.parentNode.insertBefore(sn, f);
+        })(window, document, 'script', 'https://assets.flodesk.com', '/universal', 'fd');
+      </script>
+
     <!------------ this is our custom CSS stylesheet --------------->
     
     <!--our custom CSS should ALWAYS be the last style sheet to go in - that way it can override the styles in any other resources (like google font, gridlex, bootstrap, etc)-->
@@ -153,6 +176,25 @@
             <p class="editable"><strong>Store:</strong> 55 Main St. Chicago</p>
             <p class="editable"><strong>Instagram:</strong><a href="https://www.instagram.com/thesleepco"> @thesleepco</a></p>
         </div>
+
+        <!-- Custom form from Mailerlite -->
+        <!-- <div class="col-12">
+            <div class="ml-embedded" data-form="5vspFg"></div>
+        </div> 
+    
+        you can inspect the code and get this to look as close to your design as possible - this is how you would do an embedded form that's linked to mailer lite, so people can subscribe to your newsletter
+    
+        -->
+
+        <!-- Custom Form from Flodesk -- just need to style it how we want but i like this better than mailerlite for now-->
+        <div id="fd-form-6350a29aa8aff8bae2a9c434"></div>
+        <script>
+        window.fd('form', {
+            formId: '6350a29aa8aff8bae2a9c434',
+            containerEl: '#fd-form-6350a29aa8aff8bae2a9c434'
+        });
+        </script>
+
     </footer>
 
     <!--------------- Other Version of Footer ------------->
@@ -170,6 +212,7 @@
     </footer> -->
 
     <!-- MailerLite Universal -->
+    <!-- this is the script we would use for the design template we made to get people to sign up for our site/give them a discount for signing up, doesn't work cuz i don't have a legit account -->
     <script>
         (function(w,d,e,u,f,l,n){w[f]=w[f]||function(){(w[f].q=w[f].q||[])
         .push(arguments);},l=d.createElement(e),l.async=1,l.src=u,
