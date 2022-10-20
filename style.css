@@ -310,7 +310,7 @@ textarea:focus {
 
 @media (max-width:64em) {
 
-    body {border: 2px solid green; padding:.5rem;}
+    /* body {border: 2px solid green; padding:.5rem;} */
     
     .show-md {display: block;}
     .hide-md {display: none;}
@@ -326,7 +326,7 @@ textarea:focus {
     html {font-size: 14px;}
     p {font-size: 1.1rem;}
 
-    body {border: 2px solid blue;}
+    /* body {border: 2px solid blue;} */
 
     
     .show-sm {display: block;}
@@ -355,7 +355,7 @@ textarea:focus {
 
 @media (max-width:36em) {
 
-    body {border: 2px solid lightblue;}
+    /* body {border: 2px solid lightblue;} */
 
     .show-xs {display: block;}
     .hide-xs {display: none;}
