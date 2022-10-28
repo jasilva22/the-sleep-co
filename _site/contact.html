@@ -21,6 +21,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@200;400;500;800&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,800;0,900;1,100;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet" />
 
+    <!------------------- Animate on Scroll ----------------->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+
     <!-- Flodesk Custom Form -->
     <!-- <script>
         (function(w, d, t, h, s, n) {
@@ -59,18 +63,33 @@
     <header class="grid center tall-60">
         
         <div class="header-nav col-12-top grid">
-    <div class="col-5_sm-12-middle sm-padded-b-0">
-        <a href="/index.html" class="logo">
+    <div class="col-5_sm-11-middle sm-padded-b-0">
+        <a href="/index.html" class="logo sm-text-left">
           <h2>The Sleep Co</h2>
         </a>
     </div>
-    <nav class="col-7_sm-12-middle right sm-text-center">
+    <nav class="col-7_sm-12-middle right sm-text-center hide-sm">
         <a href="/index.html">Home</a>
         <a href="/about.html">About</a>
         <a href="/products.html">Products</a>
         <a href="/contact.html">Contact</a>
     </nav>
+
+    <div class="col-1-middle show-sm">
+        <div class="hamburger-button">
+            <i class="fas fa-bars"></i>
+        </div>
+    </div>
+
+
 </div>
+
+<nav class="mobile-menu bg-featured padded">
+    <a href="/index.html">Home</a>
+    <a href="/about.html">About</a>
+    <a href="/products.html">Products</a>
+    <a href="/contact.html">Contact</a>
+</nav>
         
         <div class="col-12">
             <h3 class="font-weight-extra-bold editable">
@@ -202,6 +221,18 @@
         ml('account', '196189');
     </script> -->
     <!-- End MailerLite Universal -->
+
+
+    <!-- Add jQuery -->
+    <!-- make sure these go in order - make sure jQuery is FIRST, then any external tools like a popup gallery or a slick slider and then finally custom javascript at the end - so the way i have it right now is wrong but we're not using the mailerlite so no worries -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-------------- Animate on Scroll ---------->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+
+    <!-- Our custom Javascript file -->
+    <script src="/scripts.js"></script>
 
 </body>
 </html>
