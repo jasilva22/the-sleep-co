@@ -1,0 +1,389 @@
+/* 
+    Colors:
+    Yellow: #FFBE00;
+    Navy: #192B37;
+*/
+
+/* CSS Reset */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+[class*="col-"] {
+    padding: 0;
+  }
+
+
+/*--------------------------------------------- Universal styles and utility classes -----------------------*/
+
+/* Padding Utility Classes ------------------*/
+
+.padded-sm  {padding: 2.5%;}
+.padded     {padding: 5%;}
+.padded-lg  {padding: 10%;}
+
+.padded-05  {padding: .5rem;}
+.padded-1   {padding: 1rem;}
+.padded-2   {padding: 2rem;}
+
+.padded-t   {padding-top: 5%;}
+.padded-b   {padding-bottom: 5%;}
+.padded-l   {padding-left: 5%;}
+.padded-r   {padding-right: 5%;}
+
+.padded-tb   {padding-top: 5%; padding-bottom: 5%;}
+.padded-lr  {padding-left: 5%; padding-right: 5%;}
+
+.padded-t-1  {padding-top: 1rem;}
+.padded-b-1  {padding-bottom: 1rem;}
+.padded-l-1  {padding-left: 1rem;}
+.padded-r-1  {padding-right: 1rem;}
+
+.padded-t-2  {padding-top: 2rem;}
+.padded-b-2  {padding-bottom: 2rem;}
+.padded-l-2  {padding-left: 2rem;}
+.padded-r-2  {padding-right: 2rem;}
+
+.padded-t-0  {padding-top: 0;}
+.padded-b-0  {padding-bottom: 0;}
+.padded-l-0  {padding-left: 0;}
+.padded-r-0  {padding-right: 0;}
+
+/* Margin Utility Classes -------------------*/
+
+.margin-t   {margin-top: 5%;}
+.margin-b   {margin-bottom: 5%;}
+.margin-l   {margin-left: 5%;}
+.margin-r   {margin-right: 5%;}
+
+.margin-t-1   {margin-top: 1rem;}
+.margin-b-1   {margin-bottom: 1rem;}
+.margin-l-1   {margin-left: 1rem;}
+.margin-r-1   {margin-right: 1rem;}
+
+.margin-t-2   {margin-top: 2rem;}
+.margin-b-2   {margin-bottom: 2rem;}
+.margin-l-2   {margin-left: 2rem;}
+.margin-r-2   {margin-right: 2rem;}
+
+.margin-t-0   {margin-top: 0;}
+.margin-b-0   {margin-bottom: 0;}
+.margin-l-0   {margin-left: 0;}
+.margin-r-0   {margin-right: 0;}
+
+.margin-tb    {margin-top: 5%; margin-bottom: 5%;}
+.margin-lr    {margin-left: 5%; margin-right: 5%;}
+
+/* Minimum Height --------------------------*/
+
+.tall-50    {min-height: 50vh;}
+.tall-60    {min-height: 60vh;}
+.tall-70    {min-height: 70vh;}
+.tall-80    {min-height: 80vh;}
+.tall-90    {min-height: 90vh;}
+.tall-100   {min-height: 100vh;}
+
+/* Backgrounds & Images --------------------*/
+
+.bg-dark {
+    background-color: #192B37;
+    color: #fff;
+}
+.bg-featured {background-color: #FFBE00;}
+.bg-light {background-color: #e3ecf2}
+
+/* Image Styles */
+
+.bg-img {
+    background-image: url('/images/sleep-co-1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.landscape  {padding-bottom: 65%;}
+.portrait   {padding-bottom: 125%;}
+.square     {padding-bottom: 100%;}
+
+/* Typography Styles ----------------------- */
+
+body {
+    font-family: 'Catamaran', sans-serif;
+    color: #192B37;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 1rem;
+    line-height: 1.1;
+}
+
+h2 {
+    font-size: 2.5rem;      
+    /* always adjust line height when text wraps to multiple lines on a smaller screen BEFORE you adjust the margin-bottom - line height will apply to every single line of text, so you want to make that look good on a smaller screen before applying a margin to it
+    tip box says: give your heading a smaller line-height so that it looks nice on multiple lines. then adjust your margin-bottom so that there's a nice-looking space to the paragraph below it */
+}
+h3 {font-size: 1.8rem;}
+h4 {font-size: 1.5rem;}
+
+
+p {
+    font-weight: 200;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+}
+
+p:last-child {
+    margin-bottom: 0;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+    border-bottom: 1px solid;
+}
+
+a:hover {
+    color: #FFBE00;
+}
+
+.font-weight-light          {font-weight: 200;}
+.font-weight-normal         {font-weight: normal;}
+.font-weight-extra-bold     {font-weight: 800;}
+
+.left             {text-align: left;}
+.center           {text-align: center;}
+.right            {text-align: right;}
+
+.featured-text    {color: #FFBE00;}
+.white-text       {color: #fff;}
+
+.small-text       {font-size: 1.5rem;}
+.medium-text      {font-size: 2rem;}
+.big-text         {font-size: 4.5rem;}
+
+.uppercase  {text-transform: uppercase;}
+
+.subtitle {
+    font-size: 1.2rem;
+    color: rgb(120,120,125);
+}
+
+/* Font Awesome Styles---------------------------*/
+
+.fa-solid {
+    display: block;
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 3rem;
+}
+
+/* Header & Footer Styles ----------------------*/
+
+header {
+    background-color: #EDE9E7;
+    background-image: url('/images/sleep-co-1.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 2% 5%;
+}
+
+header h3 {
+    font-size: 5rem;
+    line-height: 1; 
+    /* doesn't need a unit of measurement; 1 means the same size as the font itself; 1.4 means 1.4 times the size of the font itself */
+}
+
+nav a {
+    padding: .5rem;
+    display: inline-block;
+    border: none;
+}
+
+.logo h2 {
+    margin-bottom: 0;
+}
+
+footer a {
+    border: none;
+}
+
+#fd-form-6350a29aa8aff8bae2a9c434 {
+    opacity: .9;
+}
+
+/* Background Images ------------------------------*/
+
+.bg-bed {background-image: url('/images/sleep-co-3.jpg');}
+
+.bg-pug {
+    background-image: url('/images/sleep-co-4.jpg');
+    background-position: 50% 35%;      
+}
+
+.bg-pillow {
+    background-image: url('/images/sleep-co-2.jpg');
+    background-position: 50% 57%;}
+
+/* Buttons & Forms -------------------------------*/
+
+input,
+textarea {
+    width: 100%;
+    display: block;
+    margin-bottom: .3rem;
+    padding: .5rem;
+    font-family: inherit;
+    font-size: .9rem;
+    border: 2px solid transparent; /*if we make a border that is transparent, when we add another border to the focus state we don't get the form jumping on the page*/
+}
+
+input:focus,
+textarea:focus {
+    border: 2px solid #FFBE00;
+    outline: none;
+}
+
+.button {
+    padding: .5rem 2rem;
+    background-color: #FFBE00;
+    appearance: none;
+    border: 2px solid #FFBE00;
+    color: inherit;
+}
+
+
+/* Testimonial Block ------------------------------*/
+
+.quote-icon {
+    font-size: 6rem;
+    display: inline-block;
+    color: rgb(120,120,125);
+    line-height: 1;
+}
+
+/* Alternate Nav Styles----------------------*/
+  
+  /* header a {                     --these were all for my own personal nav that i did - was different from class, keeping just in case 
+    color:inherit;
+    text-decoration: none;
+    display: inline-block;
+    padding: .5rem;
+    font-size: 1.2rem;
+  }
+  
+  header a:hover {
+    color: #FFBE00;
+  }
+  
+  header {
+    padding: 2% 5%;
+  }
+  
+  .logo h2 {
+    font-size: 4.5rem;
+    font-weight: lighter;
+  } */
+  
+/* alternate footer styles ------------------*/
+
+/* footer a {
+    display: inline-block;
+    color: #fff;
+    border: 2px solid #fff;
+    padding-left: .8rem;
+    padding-right: .8rem;
+    padding-top: .5rem;
+    margin: .5rem;
+    font-size: 2rem;    
+} */
+
+
+
+/* General CSS Responsive Styles (apply everywehere unless overridden) --------*/
+
+.show-xs,
+.show-sm,
+.show-md {
+    display: none;
+}
+
+/* MD Media Query (64 em / 1024 px) ------------------------*/
+/* - Styles added here will apply at devices smaller than 1024px, or zoomed in equivalent */
+
+@media (max-width:64em) {
+
+    /* body {border: 2px solid green; padding:.5rem;} */
+    
+    .show-md {display: block;}
+    .hide-md {display: none;}
+
+    .md-tall-80 {min-height: 80vh;}
+}
+
+/* SM Media Query (48 em / 768 px) ------------------------*/
+/* - Styles added here will apply at devices smaller than 768px, or zoomed in equivalent */
+
+@media (max-width:48em) {
+
+    html {font-size: 14px;}
+    p {font-size: 1.1rem;}
+
+    /* body {border: 2px solid blue;} */
+
+    
+    .show-sm {display: block;}
+    .hide-sm {display: none;}
+
+    .sm-text-center {text-align: center;}
+    .sm-text-left   {text-align: left;}
+    .sm-text-right  {text-align: right;}
+
+    .sm-padded      {padding: 5%}
+    .sm-padded-1    {padding: 1rem;}
+    .sm-padded-05   {padding: .5rem}
+
+    .sm-padded-t-0 {padding:0;}
+    .sm-padded-b-0 {padding:0;}
+    .sm-padded-l-0 {padding:0;}
+    .sm-padded-r-0 {padding:0;}
+
+    .logo h2  {font-size: 2rem;}
+    header h3 {font-size: 11vw;}
+ 
+}
+
+/* XS Media Query (36 em / 576 px) ------------------------*/
+/* - Styles added here will apply at devices smaller than 576px, or zoomed in equivalent */
+
+@media (max-width:36em) {
+
+    /* body {border: 2px solid lightblue;} */
+
+    .show-xs {display: block;}
+    .hide-xs {display: none;}
+
+    h1 {
+        font-size: 1.4rem;
+        line-height: 1.1;
+    }
+    h2 {
+        font-size: 2rem;;
+    }
+}
+
+/* XxS Media Query (25 em / 400 px) ------------------------*/
+/* - Styles added here will apply at devices smaller than 400px, or zoomed in equivalent */
+
+@media (max-width:25em) {
+/* this is how we can override gridlex and make another even smaller media query */
+    [class*="grid"] .xxs-stack {
+        flex-basis: 100%;
+        max-width: 100%;
+    }
+
+    html {font-size: 12px;}
+    p    {font-size: 1.1rem;}
+}
+/* 320 px is most likely the smallest we'll have to go */
