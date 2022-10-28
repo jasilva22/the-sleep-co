@@ -60,8 +60,8 @@
 <body>
 
         <!--------------------- Her Header Nav/Banner ----------------------->
-    <header class="grid center tall-60">
-        
+    <header class="grid center tall-100 md-tall-80">
+
         <div class="header-nav col-12-top grid">
     <div class="col-5_sm-11-middle sm-padded-b-0">
         <a href="/index.html" class="logo sm-text-left">
@@ -92,78 +92,84 @@
     <a href="/gallery.html">Gallery</a>
     <a href="/contact.html">Contact</a>
 </nav>
-        
+
         <div class="col-12">
-            <h3 class="font-weight-extra-bold editable">
-                why <span class="featured-text">wait</span>
+            <h3 class="font-weight-extra-bold editable" data-aos="fade-in" data-aos-duration="1500">
+                <span class="featured-text">explore</span> our world
             </h3>
-            <h1 class="font-weight-light editable">one call away from the perfect night sleep</h1>
+            <h1 class="font-weight-light editable" data-aos="fade-up" data-aos-delay="500" data-aos-duration="800">the ultimate mattress solution</h1>
         </div>
     </header>
 
-    <!------------------- Contact Form Section ------------------>
-
-    <section class="grid bg-dark light-text padded">
-        <div class="col-6 padded">
-            <h2>let's <span class="featured-text">connect</span></h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa recusandae architecto amet dicta dignissimos itaque aperiam voluptates deserunt sed maxime.</p>
+    <!-- Gallery w/out jQuery-->
+    <!-- <section class="padded">
+        <div class="gallery grid">
+            <div class="col-6">
+                <div class="bg-img portrait bg-img-1"></div>
+            </div>
+            <div class="col-6">
+                <div class="bg-img portrait bg-img-2"></div>
+            </div>
+            <div class="col-4_xs-12">
+                <div class="bg-img square bg-pos-r bg-img-3"></div>
+            </div>
+            <div class="col-4_xs-12">
+                <div class="bg-img square bg-img-4"></div>
+            </div>
+            <div class="col-4_xs-12">
+                <div class="bg-img square bg-pos-l bg-img-5"></div>
+            </div>
+            <div class="col-12">
+                <div class="bg-img landscape bg-pos-t bg-img-6"></div>
+            </div>
         </div>
-        <div class="col-6 padded">
-            <form> <!--need to add a form action if going live-->
-                <input type="text" name="name" placeholder="Your Name">
-                <input type="email" name="_replyto" placeholder="Your Email"> <!--using replyto b/c we want cloudcannon or formspree to recognize that this is the users email, so when we hit respond to their email it automatically goes back to the right person-->
-                <textarea name="message" placeholder="Tell us what you want..." rows="4"></textarea>
-                <button class="button uppercase" type="submit">submit</button>
-            </form>
+    </section> -->
+
+    <!-- Gallery w/jQuery -->
+    <section class="padded">
+        <div class="gallery grid">
+
+            
+
+            <div class="col-6">
+                <div class="bg-img square" style="background-image: url('/images/sleep-co-1.jpg')"></div>
+            </div>
+
+            
+
+            <div class="col-6">
+                <div class="bg-img square" style="background-image: url('/images/sleep-co-3.jpg')"></div>
+            </div>
+
+            
+
+            <div class="col-12">
+                <div class="bg-img landscape" style="background-image: url('/images/sleep-co-2.jpg')"></div>
+            </div>
+
+            
+
+            <div class="col-4">
+                <div class="bg-img portrait" style="background-image: url('/images/sleep-co-4.jpg')"></div>
+            </div>
+
+            
+
+            <div class="col-4">
+                <div class="bg-img portrait" style="background-image: url('/images/sleep-co-4.jpg')"></div>
+            </div>
+
+            
+
+            <div class="col-4">
+                <div class="bg-img portrait" style="background-image: url('/images/sleep-co-4.jpg')"></div>
+            </div>
+
+            
+            
         </div>
     </section>
 
-
-    <!------------------------- Gallery Section ---------------------->
-    <section class="grid padded">
-        <div class="bg-img bg-pug col-6 tall-70"></div>
-                <!-- background image pug sleeping -->
-        <div class="padded col-6-middle">
-            <h2 class="editable">so <span class="featured-text">soft</span> you'll melt</h2>
-            <p class="editable">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore iure distinctio hic asperiores, quis ullam, eligendi esse officiis maiores qui nemo repudiandae libero amet? Perspiciatis accusamus magnam dignissimos adipisci aperiam.</p>
-        </div>
-    </section>
-
-    <!------------------- Icon Grid Section --------------->
-    <section class="padded grid-center bg-light">
-        <div class="padded-1 col-12 center">
-            <h2>need help deciding?</h2>
-        </div>
-        <div class="padded-1 col-3">
-            <i class="fa-solid fa-cloud"></i> 
-            <!-- fontawesome icons are INLINE elements by default, so unless you set it to block, it won't accept the text-alignment property -->
-            <p class="editable">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, a perferendis dolorem velit deleniti aspernatur possimus.</p>
-        </div>
-        <div class="padded-1 col-3">
-            <i class="fa-solid fa-cloud"></i>
-            <p class="editable">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, a perferendis dolorem velit deleniti aspernatur possimus. </p>
-        </div>
-        <div class="padded-1 col-3">
-            <i class="fa-solid fa-cloud"></i>
-            <p class="editable">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, a perferendis dolorem velit deleniti aspernatur possimus. </p>
-        </div>
-    </section>
-
-    <!------------------- Testimonial Section --------------->
-    
-    <section class="padded grid padded-lg">
-        <div class="col-1 right">
-            <span class="quote-icon">&ldquo;</span>
-        </div>
-        <div class="col-10 center">
-            <p class="medium-text font-weight-light editable">I've never experienced sleep like this. Omg I really love this mattress I want to buy one for every member of my family</p>
-            <p class="subtitle editable">- A very happy customer</p>
-        </div>
-        <div class="col-1">
-            <span class="quote-icon">&rdquo;</span>
-        </div>
-    </section>
-    
 
        <!------------------- Footer Section --------------->
 
