@@ -1,23 +1,23 @@
 seo:
- site-name: The Sleep Co
- title: Default SEO Title
- description:
- keywords:
- social_image: 
- author:
- favicon_image:
+  site-name: The Sleep Co
+  title: Default SEO Title
+  description:
+  keywords:
+  social_image:
+  author:
+  favicon_image:
 social:
- instagram_username:
- facebook_url:
- twitter_username:
+  instagram_username:
+  facebook_url:
+  twitter_username:
 design:
- dark-text:
- medium-text:
- light-text:
- featured-text: '#ffbe00'
- dark:
- medium:
- light: '#e3ecf2'
- v-light: '#f9f9f9'
- featured: '#ffbe00'
- accent:
+  dark-text:
+  medium-text:
+  light-text:
+  featured-text: '#00FF00'
+  dark:
+  medium:
+  light: '#e3ecf2'
+  v-light: '#f9f9f9'
+  featured: '#ffbe00'
+  accent:
