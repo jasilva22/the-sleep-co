@@ -14,7 +14,7 @@ design:
  dark-text:
  medium-text:
  light-text:
- featured-text: '#ffbe00'
+ featured-text: 'red'
  dark:
  medium:
  light: '#e3ecf2'
