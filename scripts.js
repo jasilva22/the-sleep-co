@@ -11,5 +11,16 @@ $( document ).ready(function() {
         duration: 500 //values from 0 to 3000, with steps 50ms
     });
 
-
 });
+
+lightGallery(document.getElementById('lightgallery'), {
+    speed: 500,
+    download: false,
+    escKey: true
+  });
+
+lightGallery(document.getElementById('lightgallery-2'), {
+    speed: 500,
+    download: false,
+    escKey: true
+  });

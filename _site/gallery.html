@@ -2,57 +2,59 @@
 <html lang="en">
 <!-- this is the head of our html where we add external resources and metadata -->
 <head>
-    <!-- Viewport meta for responsive -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
-    
-    <!-- Title of Page -->
-    <title>The Sleep Co</title>
+   <!-- Viewport meta for responsive -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">  
 
-    <!-------------------- this is our grid stylesheet ----------->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/gridlex/2.7.1/gridlex.min.css" />
+<!-- Title of Page -->
+<title>The Sleep Co</title>
 
-
-    <!--------------- this is our Font Awesome Icons --------->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-    <!--------- Google Fonts - Catamaran (200,400,500,800)--------->
-    
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@200;400;500;800&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,800;0,900;1,100;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet" />
-
-    <!------------------- Animate on Scroll ----------------->
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<!-------------------- this is our grid stylesheet ----------->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/gridlex/2.7.1/gridlex.min.css" />
 
 
-    <!-- Flodesk Custom Form -->
-    <!-- <script>
-        (function(w, d, t, h, s, n) {
-          w.FlodeskObject = n;
-          var fn = function() {
-            (w[n].q = w[n].q || []).push(arguments);
-          };
-          w[n] = w[n] || fn;
-          var f = d.getElementsByTagName(t)[0];
-          var v = '?v=' + Math.floor(new Date().getTime() / (120 * 1000)) * 60;
-          var sm = d.createElement(t);
-          sm.async = true;
-          sm.type = 'module';
-          sm.src = h + s + '.mjs' + v;
-          f.parentNode.insertBefore(sm, f);
-          var sn = d.createElement(t);
-          sn.async = true;
-          sn.noModule = true;
-          sn.src = h + s + '.js' + v;
-          f.parentNode.insertBefore(sn, f);
-        })(window, document, 'script', 'https://assets.flodesk.com', '/universal', 'fd');
-      </script> -->
+<!--------------- this is our Font Awesome Icons --------->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-    <!------------ this is our custom CSS stylesheet --------------->
-    
-    <!--our custom CSS should ALWAYS be the last style sheet to go in - that way it can override the styles in any other resources (like google font, gridlex, bootstrap, etc)-->
+<!--------- Google Fonts - Catamaran (200,400,500,800)--------->
 
-    <link href="/style.css" rel="stylesheet" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@200;400;500;800&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,800;0,900;1,100;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet" />
+
+<!------------------- Animate on Scroll ----------------->
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+<!------------------- LightBox Gallery for Popups ------------------>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.0/css/lightgallery-bundle.min.css" integrity="sha512-nUqPe0+ak577sKSMThGcKJauRI7ENhKC2FQAOOmdyCYSrUh0GnwLsZNYqwilpMmplN+3nO3zso8CWUgu33BDag==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<!-- Flodesk Custom Form -->
+<!-- <script>
+    (function(w, d, t, h, s, n) {
+    w.FlodeskObject = n;
+    var fn = function() {
+        (w[n].q = w[n].q || []).push(arguments);
+    };
+    w[n] = w[n] || fn;
+    var f = d.getElementsByTagName(t)[0];
+    var v = '?v=' + Math.floor(new Date().getTime() / (120 * 1000)) * 60;
+    var sm = d.createElement(t);
+    sm.async = true;
+    sm.type = 'module';
+    sm.src = h + s + '.mjs' + v;
+    f.parentNode.insertBefore(sm, f);
+    var sn = d.createElement(t);
+    sn.async = true;
+    sn.noModule = true;
+    sn.src = h + s + '.js' + v;
+    f.parentNode.insertBefore(sn, f);
+    })(window, document, 'script', 'https://assets.flodesk.com', '/universal', 'fd');
+</script> -->
+
+<!------------ this is our custom CSS stylesheet --------------->
+
+<!--our custom CSS should ALWAYS be the last style sheet to go in - that way it can override the styles in any other resources (like google font, gridlex, bootstrap, etc)-->
+
+<link href="/style.css" rel="stylesheet" />
     
 </head>
     
@@ -125,118 +127,158 @@
         </div>
     </section> -->
 
-    <!-- Gallery w/jQuery -->
-    <section class="padded">
-        <div class="gallery grid">
+    
+
+    <!-- Lightbox Gallery w/Popup -->
+    <section class="padded bg-dark">
+        <h2>Pop Up Gallery</h2>
+        <div class="gallery grid" id="lightgallery">
 
             
-
-            <div class="col-6">
-                <div class="bg-img square" style="background-image: url('/images/sleep-co-1.jpg')"></div>
-            </div>
-
+            
+            
+            
+            
+            
+            
             
 
-            <div class="col-6">
-                <div class="bg-img square" style="background-image: url('/images/sleep-co-3.jpg')"></div>
-            </div>
-
+            <a class="col-4 gallery-item" href="/images/sleep-co-4.jpg">
+                <div class="bg-img portrait" 
+                style="background-image: url('/images/sleep-co-4.jpg');">
+                </div>
+            </a>
+            
+            
             
 
-            <div class="col-12">
-                <div class="bg-img landscape" style="background-image: url('/images/sleep-co-2.jpg')"></div>
-            </div>
-
+            <a class="col-4 gallery-item" href="/images/sleep-co-4.jpg">
+                <div class="bg-img portrait" 
+                style="background-image: url('/images/sleep-co-4.jpg');">
+                </div>
+            </a>
+            
+            
             
 
-            <div class="col-4">
-                <div class="bg-img portrait" style="background-image: url('/images/sleep-co-4.jpg')"></div>
-            </div>
-
+            <a class="col-4 gallery-item" href="/images/sleep-co-4.jpg">
+                <div class="bg-img portrait" 
+                style="background-image: url('/images/sleep-co-4.jpg');">
+                </div>
+            </a>
             
-
-            <div class="col-4">
-                <div class="bg-img portrait" style="background-image: url('/images/sleep-co-4.jpg')"></div>
-            </div>
-
-            
-
-            <div class="col-4">
-                <div class="bg-img portrait" style="background-image: url('/images/sleep-co-4.jpg')"></div>
-            </div>
-
             
             
         </div>
+
+        <!-- Lightbox Gallery 2 w/Popup -->
+
+        <div class="gallery grid" id="lightgallery-2">
+
+
+            <a class="button gallery-button" href="/images/sleep-co-1.jpg" title="Funny Dogs">
+                View Our Work
+            </a>
+            <a href="/images/sleep-co-2.jpg" title="Funny dog 1"></a>
+            <a href="/images/sleep-co-3.jpg" title="Funny dog 2"></a>
+            <a href="/images/sleep-co-4.jpg" title="Funny dog 3"></a>
+            <a href="/images/sleep-co-1.jpg" title="Funny dog 4"></a>
+            <a href="/images/sleep-co-2.jpg" title="Funny dog 5"></a>
+            <a href="/images/sleep-co-3.jpg" title="Funny dog 6"></a>
+            <a href="/images/sleep-co-4.jpg" title="Funny dog 7"></a>
+            
+        </div>
+
     </section>
 
-
-       <!------------------- Footer Section --------------->
-
-       <footer class="padded grid-spaceBetween bg-dark">
-        <div class="col-4-bottom">
-            <h2 class="editable">Let's<br /><span class="featured-text">connect</span></h2>
-            <p class="editable">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa quo laboriosam facilis, facere praesentium molestiae minima fugiat inventore quasi quas architecto perferendis fuga, non perspiciatis at illum quidem corrupti consectetur.</p>
-        </div>
-        <div class="col-5-bottom">
-            <p class="editable"><strong>Call:</strong><a href="tel:#"> 04 555 5555</a></p>
-            <p class="editable"><strong>Email:</strong><a href="mailto:#"> hello@thesleep.co</a></p>
-            <p class="editable"><strong>Store:</strong> 55 Main St. Chicago</p>
-            <p class="editable"><strong>Instagram:</strong><a href="https://www.instagram.com/thesleepco"> @thesleepco</a></p>
-        </div>
-
-        <!-- Custom form from Mailerlite -->
-        <!-- <div class="col-12">
-            <div class="ml-embedded" data-form="5vspFg"></div>
-        </div> 
     
-        you can inspect the code and get this to look as close to your design as possible - this is how you would do an embedded form that's linked to mailer lite, so people can subscribe to your newsletter
-    
-        -->
 
-        <!-- Custom Form from Flodesk -- just need to style it how we want but i like this better than mailerlite for now-->
-        <!-- <div id="fd-form-6350a29aa8aff8bae2a9c434" class="col-12 padded-t-2 margin-t-2"></div>
-        <script>
-        window.fd('form', {
-            formId: '6350a29aa8aff8bae2a9c434',
-            containerEl: '#fd-form-6350a29aa8aff8bae2a9c434'
-        });
-        </script> -->
+    <!------------Testimonial Section ----------->
+    <!------------------- Testimonial Section --------------->
 
-    </footer>
-
-    <!--------------- Other Version of Footer ------------->
-
-    <!-- <footer class="grid-center padded-lg bg-dark">
-        <div class="col-6 center">
-            <h2 class="uppercase">The Sleep Co</h2>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae ullam explicabo sapiente ducimus, cupiditate omnis! Quisquam culpa hic quasi vitae.</p>
-            <nav class="footer-nav">
-                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-                <a href="#"><i class="fa-brands fa-pinterest-p"></i></a>
-                <a href="#"><i class="fa-brands fa-instagram"></i></a>
-            </nav>
-        </div>
-    </footer> -->
-
-    <!-- MailerLite Universal -->
-    <!-- this is the script we would use for the design template we made to get people to sign up for our site/give them a discount for signing up, doesn't work cuz i don't have a legit account -->
-    <!-- <script>
-        (function(w,d,e,u,f,l,n){w[f]=w[f]||function(){(w[f].q=w[f].q||[])
-        .push(arguments);},l=d.createElement(e),l.async=1,l.src=u,
-        n=d.getElementsByTagName(e)[0],n.parentNode.insertBefore(l,n);})
-        (window,document,'script','https://assets.mailerlite.com/js/universal.js','ml');
-        ml('account', '196189');
-    </script> -->
-    <!-- End MailerLite Universal -->
+<section class="padded grid padded-lg">
+    <div class="col-1 right">
+        <span class="quote-icon">&ldquo;</span>
+    </div>
+    <div class="col-10 center">
+        <p class="medium-text font-weight-light editable">I've never experienced sleep like this. Omg I really love this mattress I want to buy one for every member of my family</p>
+        <p class="subtitle editable">- A very happy customer</p>
+    </div>
+    <div class="col-1">
+        <span class="quote-icon">&rdquo;</span>
+    </div>
+</section>
 
 
-    <!-- Add jQuery -->
+
+    <!------------------- Footer Section --------------->
+
+<footer class="padded grid-spaceBetween bg-dark">
+<div class="col-4-bottom">
+    <h2 class="editable">Let's<br /><span class="featured-text">connect</span></h2>
+    <p class="editable">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa quo laboriosam facilis, facere praesentium molestiae minima fugiat inventore quasi quas architecto perferendis fuga, non perspiciatis at illum quidem corrupti consectetur.</p>
+</div>
+<div class="col-5-bottom">
+    <p class="editable"><strong>Call:</strong><a href="tel:#"> 04 555 5555</a></p>
+    <p class="editable"><strong>Email:</strong><a href="mailto:#"> hello@thesleep.co</a></p>
+    <p class="editable"><strong>Store:</strong> 55 Main St. Chicago</p>
+    <p class="editable"><strong>Instagram:</strong><a href="https://www.instagram.com/thesleepco"> @thesleepco</a></p>
+</div>
+
+<!-- Custom form from Mailerlite -->
+<!-- <div class="col-12">
+    <div class="ml-embedded" data-form="5vspFg"></div>
+</div> 
+
+you can inspect the code and get this to look as close to your design as possible - this is how you would do an embedded form that's linked to mailer lite, so people can subscribe to your newsletter
+
+-->
+
+<!-- Custom Form from Flodesk -- just need to style it how we want but i like this better than mailerlite for now-->
+<!-- <div id="fd-form-6350a29aa8aff8bae2a9c434" class="col-12 padded-t-2 margin-t-2"></div>
+<script>
+window.fd('form', {
+    formId: '6350a29aa8aff8bae2a9c434',
+    containerEl: '#fd-form-6350a29aa8aff8bae2a9c434'
+});
+</script> -->
+
+</footer>
+
+<!--------------- Other Version of Footer ------------->
+
+<!-- <footer class="grid-center padded-lg bg-dark">
+<div class="col-6 center">
+    <h2 class="uppercase">The Sleep Co</h2>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae ullam explicabo sapiente ducimus, cupiditate omnis! Quisquam culpa hic quasi vitae.</p>
+    <nav class="footer-nav">
+        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="#"><i class="fa-brands fa-pinterest-p"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+    </nav>
+</div>
+</footer> -->
+
+<!-- MailerLite Universal -->
+<!-- this is the script we would use for the design template we made to get people to sign up for our site/give them a discount for signing up, doesn't work cuz i don't have a legit account -->
+<!-- <script>
+(function(w,d,e,u,f,l,n){w[f]=w[f]||function(){(w[f].q=w[f].q||[])
+.push(arguments);},l=d.createElement(e),l.async=1,l.src=u,
+n=d.getElementsByTagName(e)[0],n.parentNode.insertBefore(l,n);})
+(window,document,'script','https://assets.mailerlite.com/js/universal.js','ml');
+ml('account', '196189');
+</script> -->
+<!-- End MailerLite Universal -->
+
+        <!-- Add jQuery -->
     <!-- make sure these go in order - make sure jQuery is FIRST, then any external tools like a popup gallery or a slick slider and then finally custom javascript at the end - so the way i have it right now is wrong but we're not using the mailerlite so no worries -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
     <!-------------- Animate on Scroll ---------->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-------------- LightBox Gallery for Popups ----------->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.0/lightgallery.min.js" integrity="sha512-pG+XpUdyBtp28FzjpaIaj72KYvZ87ZbmB3iytDK5+WFVyun8r5LJ2x1/Jy/KHdtzUXA0CUVhEnG+Isy1jVJAbA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
 
     <!-- Our custom Javascript file -->

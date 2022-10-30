@@ -273,6 +273,23 @@ footer a {
     padding: .5%;
 }
 
+.gallery-item {
+    border-bottom: none;
+}
+
+/* background of gallery when active */
+.lg-backdrop {
+    background-color:rgb(40,40,40);
+}
+
+.lg-backdrop.in {
+    opacity: .95;
+}
+
+.lg-sub-html {
+    background-color: rgba(20,20,20,.95);
+}
+
 /* Buttons & Forms -------------------------------*/
 
 input,
@@ -300,6 +317,9 @@ textarea:focus {
     color: inherit;
 }
 
+.gallery-button:hover {
+    color: #fff;
+}
 
 /* Testimonial Block ------------------------------*/
 
