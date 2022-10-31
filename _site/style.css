@@ -4,6 +4,22 @@
     Navy: #192B37;
 */
 
+/* ------------------- Color Variables --------- */
+/* :root {
+    --dark-text: 
+    --medium-text:
+    --light-text:
+    --featured-text: #FFBE00;
+    --dark: 
+    --medium:
+    --light: 
+    --v-light: 
+    --featured: 
+    --accent: 
+
+}
+  */
+
 /* CSS Reset */
 
 * {
@@ -167,7 +183,7 @@ a:hover {
 .center           {text-align: center;}
 .right            {text-align: right;}
 
-.featured-text    {color: #FFBE00;}
+.featured-text    {color: var(--featured-text);}
 .white-text       {color: #fff;}
 
 .small-text       {font-size: 1.5rem;}
