@@ -11,13 +11,13 @@ social:
   facebook_url:
   twitter_username:
 design:
-  dark-text:
-  medium-text:
-  light-text:
-  featured-text: '#ffbe00'
-  dark:
-  medium:
-  light: '#e3ecf2'
-  v-light: '#f9f9f9'
-  featured: '#ffbe00'
-  accent:
+  dark-text_color:
+  medium-text_color:
+  light-text_color:
+  featured-text_color: '#ffbe00'
+  dark_color:
+  medium_color:
+  light_color: '#e3ecf2'
+  v-light_color: '#f9f9f9'
+  featured_color: '#ffbe00'
+  accent_color:
